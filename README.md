@@ -1,11 +1,8 @@
 # Probing-Checker
-This repository contains the files for Probing-Check project done for the Data Structure course comp-352
+This repository contains the files for Hashtable project done for the Data Structure course comp-352
 
 ## Description 
-This project explores the performance of various types of hash tables and the influence of the load factor (the number of
-elements added to the table vs the size of the table) on their performances. 
-
-## File List
+This project explores the performance of various types of hash tables and the influence of the load factor (the number of elements added to the table vs the size of the table) on their performances. 
 
 * Driver.java 
 * Hashtable.java
