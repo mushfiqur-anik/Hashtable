@@ -2,7 +2,7 @@
 This repository contains the files for Hashtable project done for the Data Structure course comp-352
 
 ## Description 
-This project explores the performance of various types of collision resolving mechanism for data structure hashtable and the influence of the load factor (the number of elements added to the table vs the size of the table) on their performances. The three mechanisms used for this project are Linear Probing (If the indexed location is filled it looks at the next location k+1,k+2, k+3 and so on..), Quadratic Probing (considers the locations at indices k + j2, looks at indices k, k+1, k+4, k+9 and so on..), and the last one is Separate Chaining (Each location contains a data-structure array, linkedlists, etc searches inside the data-structure).
+This project explores the performance of various types of collision resolving mechanism for data structure hashtable and the influence of the load factor (the number of elements added to the table vs the size of the table) on their performances. The three mechanisms used for this project are Linear Probing (If the indexed location is filled it looks at the next location k+1,k+2, k+3 and so on..), Quadratic Probing (considers the locations at indices k + j2, looks at indices k, k+1, k+4, k+9 and so on..), and the last one is Separate Chaining (Each location contains a data-structure array, linkedlists, etc. searches/puts data inside the data-structure).
 
 * Driver.java 
 * Hashtable.java
