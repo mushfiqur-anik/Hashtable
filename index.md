@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Hashtable 
+This repository contains the files for Hashtable project done for the Data Structure course comp-352
 
-You can use the [editor on GitHub](https://github.com/mushfiqur-anik/Hashtable/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Description 
+This project explores the performances of various types of collision resolving mechanism for data structure Hashtable and the influence of the load factor (the number of elements added to the table vs the size of the table) on their performances. The three mechanisms used for this project are [**Linear Probing**](https://en.wikipedia.org/wiki/Linear_probing) (If the indexed location is filled it looks at the next location k+1,k+2, k+3 and so on..), [**Quadratic Probing**](https://en.wikipedia.org/wiki/Quadratic_probing) (considers the locations at indices k + j2, looks at indices k, k+1, k+4, k+9 and so on..), and the last one is [**Separate Chaining**](https://en.wikipedia.org/wiki/Hash_table#Separate_chaining) (Each location contains a data-structure array, linkedlists, etc. searches/puts data inside the data-structure). These techniques are implemented inside LinearProbing.java, QuadraticProbing.java, and SepareChaining.java respectively and Driver.java has been provided to test out the performances.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Driver.java 
+* Hashtable.java
+* LinearProbing.java 
+* MapElements.java 
+* QuadraticProbing.java
+* SeparateChaining.java
 
-### Markdown
+## Built with 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [**Java**](https://en.wikipedia.org/wiki/Java_(programming_language)) - The programming language used
+* [**Eclipse**](https://en.wikipedia.org/wiki/Eclipse_(software)) - The IDE used 
 
-```markdown
-Syntax highlighted code block
+## Author(s)
 
-# Header 1
-## Header 2
-### Header 3
+* [**Mushfiqur Anik**](https://github.com/mushfiqur-anik)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mushfiqur-anik/Hashtable/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
