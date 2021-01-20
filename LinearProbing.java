@@ -62,7 +62,6 @@ public class LinearProbing extends Hashtable {
 					}
 
 					newIndex = (newIndex + 1) % hashtable.length;
-
 				}
 
 				if (!occupied(newIndex)) {
@@ -70,7 +69,6 @@ public class LinearProbing extends Hashtable {
 					numOfElements++;
 				}
 			}
-
 		}
 
 		// Is the position is empty then add new entry.
@@ -82,7 +80,6 @@ public class LinearProbing extends Hashtable {
 		System.out.println("Size of table: " + sizeBefore);
 		System.out.println("Number of Elements after putting " + numOfElements);
 		System.out.println("Number of probing attempts: " + collisions);
-
 	}
 
 	// Get
@@ -147,7 +144,6 @@ public class LinearProbing extends Hashtable {
 		} else {
 			return -1;
 		}
-
 	}
 
 	// Check if the position is occupied or not
@@ -165,5 +161,4 @@ public class LinearProbing extends Hashtable {
 			}
 		}
 	}
-
 }
