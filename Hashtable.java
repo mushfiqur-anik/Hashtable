@@ -18,14 +18,12 @@
 		return hashIndex;
 	}
 	 
-	
 	// Size
 	abstract int size();
 	
 	// isEmpty
 	abstract boolean isEmpty();
 	
-
     // put(k)
     abstract void put(Integer k, Character v);
     
