@@ -144,6 +144,4 @@ public class SeparateChaining extends Hashtable {
 			}
 		}
 	}
-
-	
 }
