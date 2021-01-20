@@ -38,8 +38,4 @@ public class MapElements {
 	public void setValues(Character values) {
 		this.values = values;
 	}
-	
-	
-	
-
 }
