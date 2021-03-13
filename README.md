@@ -1,4 +1,4 @@
-# Hashtable 
+# Hashtable c
 This repository contains the files for Hashtable project done for the Data Structure course comp-352
 
 ## Description 
